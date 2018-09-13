@@ -9,17 +9,17 @@ The other aspect of any natural disaster is the financial burden due to property
 Leveraging advanced analytics on hot data **at scale from various sources** (geospatial, weather feeds, wind speeds etc.)  and enriched with historical data, can provide more accurate information for risk reduction and quick responses.
 
 Check out a great demo below that was created for an insurance company that wanted to present to customers the potential asset loss according to the hurricane tracking predictions and the personal client data.
-Gigaspaces' XAP Catastrophe-Modeling demo is a risk management tool that demonstrates how insurers, reinsurers, private businesses, and government agencies can assess exposure due to natural and man-made catastrophes.
+Gigaspaces' InsightEdge Catastrophe-Modeling demo is a risk management tool that demonstrates how insurers, reinsurers, private businesses, and government agencies can assess exposure due to natural and man-made catastrophes.
 
 ![Screen shot](/screen-shot.png?raw=true "Demo Screen Shot")
 
 # Running the demo
 
 ## Requirements
-* InsightEdge / XAP 11 or later
+* This demo works with either InsightEdge or XAP, version 11 or greater.
 
 ## Dependencies
-* You will need to add XAP geospatial dependency to web application ${XAP_HOME}/lib/spatial/xap-spatial.jar
+* You will need to add the optional geospatial dependency to web application's class path (`<product home>/lib/optional/spatial/*`).
 
 ## Build
 
